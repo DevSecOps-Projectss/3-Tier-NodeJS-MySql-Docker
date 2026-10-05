@@ -29,7 +29,7 @@ RUN npm install
 COPY server/ ./
 
 # Copy the client build files to the server's public directory
-RUN mkdir -p ./public && cp -R /usr/src/app/client/dist/* ./public/
+RUN mkdir -p ./public && cp -R /usr/src/app/client/public/* ./public/
 
 # Expose the port the server will run on
 EXPOSE 5000

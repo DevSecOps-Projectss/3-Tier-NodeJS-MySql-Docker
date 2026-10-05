@@ -1,0 +1,12 @@
+# Node dependencies (installed fresh inside the image)
+**/node_modules
+
+# Build output (generated inside the image)
+client/dist
+server/public
+
+# Logs and misc
+**/npm-debug.log
+.git
+.gitignore
+*.md
